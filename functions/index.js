@@ -10,7 +10,7 @@ app.set('views', './views');
 app.set('view engine', 'hbs');
 
 app.get("/",function(req, res) {
-    res.send("hello");
+  res.render("landing.ejs");
 });
 
 exports.app = functions.https.onRequest(app);
