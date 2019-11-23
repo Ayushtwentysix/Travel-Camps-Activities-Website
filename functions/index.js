@@ -13,4 +13,8 @@ app.get("/",function(req, res) {
   res.render("landing.ejs");
 });
 
+app.get("/Camps-Activities",function(req, res) {
+    res.render("home.ejs");
+});
+
 exports.app = functions.https.onRequest(app);
