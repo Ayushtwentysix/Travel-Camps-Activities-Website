@@ -8,3 +8,7 @@ app.use(express.static("public"));
 
 app.set('views', './views');
 app.set('view engine', 'hbs');
+
+app.get("/",function(req, res) {
+    res.send("hello");
+});
