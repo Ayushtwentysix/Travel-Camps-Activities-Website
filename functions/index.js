@@ -5,3 +5,6 @@ var app =express();
 var bodyParser =require("body-parser");
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
+
+app.set('views', './views');
+app.set('view engine', 'hbs');
