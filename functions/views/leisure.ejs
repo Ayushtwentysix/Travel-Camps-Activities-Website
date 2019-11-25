@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Camping & Bonfire</title>
+ <meta property="og:image" content=https://res.cloudinary.com/dzdj5vlz4/image/upload/v1529925131/IMG-20180621-WA0004-01.jpg>  
+
+
+
+
+
+<% include partials/header.ejs %>
+
+
+
+    
+   
+   
+<div class="ui one column grid">
+  <div class="column">
+
+      
+      
+           <div class="ui two stackable cards" style="margin-top:10px;">
+  <div class="card">
+    <div class="image">
+      <img src="https://res.cloudinary.com/dzdj5vlz4/image/upload/v1529937945/Kishna%20Camps/CampsAndTreks/JlaLkoRdmU3CgifT1gFrWgQIxeuGAmkanOWFpO9WT9YLaoSNDJf1ZrBlpJWXH2njYQov5LyS18Uo8qIEkX0i2PFJoi7797tSuywD_w1064-h598-rw-no.jpg">
+    </div>
+  </div>
+  <div class="card">
+    <div class="image">
+      <img src="https://res.cloudinary.com/dzdj5vlz4/image/upload/v1529925131/IMG-20180621-WA0004-01.jpg">
+    </div>
+  </div>
+   <div class="card">
+    <div class="image">
+      <img src="https://res.cloudinary.com/dzdj5vlz4/image/upload/v1529939059/Kishna%20Camps/CampsAndTreks/IJ8frU-DDYPWsuqh3KVhvKJ-rbkgKgEkwmvzBh3stZhuuDkqcA_fsLimEX0UNjBKSfk-PHarYTIJb47KzfpmStDYcHc0-h05JWdT_w1040-h585-rw-no.jpg">
+    </div>
+  </div>
+      <div class="card">
+    <div class="image">
+      <img src="https://res.cloudinary.com/dzdj5vlz4/image/upload/v1529938148/Kishna%20Camps/CampsAndTreks/goBAS5sLG3kcA_dXqPwO8QjHefQJ4HH8auPZw2-iB2C1aOVs6AqUzYjqzB9z2zBpnG_Oj_gB5RCY9mktL5qLkHpSa4HNxTUj1c4J_w1280-h720-rw-no.jpg">
+    </div>
+  </div>
+
+</div>
+ <div class="ui two column stackable padded grid">
+    <div class=" column">
+      <div class="ui raised fluid card" >
+      <div class="content" style="font-size:1.1em;">
+        <div class="header" style="font-size:2em";>
+            CAMPING & BONFIRE 
+       </div>  <p><span style="font-size:1.1em;"><i class="map marker alternate fitted orange icon"></i> Prashar Lake</span></p>
+       
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <div class="addthis_inline_share_toolbox"></div>
+            
+       <div class="ui four column wide grid">
+       <div class="item">
+      <div style="margin-top:15px; background:bisque; font-size:1.3em; margin-bottom:15px;">
+         
+       <p><i class="check green  outline icon"></i>Full Camping Experience</p>
+       <p><i class="check green  outline icon"></i>Motto: Be there, Lie there, Do nothing!!! </p>
+       </div></div> </div>
+        <div style="margin-top:20px; font-size:1.5em;"><strong>About the Activity:</strong></div>
+        <div style="margin-top:10px;">
+          <p>Himachal Pradesh, the land of Himalayan wonders, is a state in Northern India. One of the premier favorite destinations of the country, 
+          this state is famous for being home to something for everyone.</p>
+          <p>This activity is of 1 Day & 1 Night.</p>
+          <p>If you just want to just experience Camping with Bonfine, this is the perfect place for you.</p>
+              
+              <div style="margin-top:20px; font-size:1.5em;"><strong>Itinerary:</strong></div>
+              <p><i class="tiny circle icon"></i>In Night, enjoy delicious Dinner while Camping in an environment warmed by Bonfire.</p>
+              <p><i class="tiny circle icon"></i>Make new friends, while drinking hot served Soup & eating snacks at late night.</p>
+              <p><i class="tiny circle icon"></i>Next morning, eat breakfast near the lake.</p>
+
+              
+              <div style="margin-top:20px; font-size:1.5em;"><strong>Things To Carry:</strong></div>
+        <div style="margin-top:10px;">
+<p><i class="chevron right icon"></i>Sunglasses/ Cap</p>
+<p><i class="chevron right icon"></i>Thermals for innerwear</p>
+<p><i class="chevron right icon"></i>Wind-proof heavy jackets</p>
+
+</div>
+
+             <div style="margin-top:20px; font-size:1.5em;"><strong>Advisory -</strong></div>
+        <div style="margin-top:10px;">
+<p><i class="chevron right icon"></i>Avoid heavy packing, travel light.</p>
+<p><i class="chevron right icon"></i> Track Pants should be preferred over jeans during the activity</p>
+</div>
+
+
+
+
+
+</div>
+    
+
+  </div>
+  </div>
+
+  </div>
+        <div class="column">
+<div class="ui  container">
+  
+<div class="ui  comments">
+  <h3 class="ui dividing header">Comments</h3>
+  <% camp.comments.forEach(function(c){ %>
+   <div class="comment">
+      <div class="content">
+         <div class="author" style="font-size:1.3em;"><%= c.author %></div>
+          <div class="text" style="font-size:1.1em;">
+       <%= c.text %>
+      </div>
+        
+        </div>
+     </div>
+
+    
+<% }); %>
+
+<a href="/trek/leisure/comment/new" class="ui big blue button">Add new comment</a>
+
+</div>
+</div>
+</div>
+
+  </div>
+  
+  
+<h2 class="ui horizontal divider" style="margin-top:40px; margin-bottom:1px;text-decoration:underline;">
+price
+  </h2>
+  <div class="ui centered card">
+
+               <div class="ui orange cards">
+  <div class="card">
+    <div class="content" style="text-align:center;">
+    <div class="header">Rs 999/person</div>
+      
+  </div> 
+  </div>
+   
+            </div>
+
+</div>
+             <h2 class="ui horizontal divider" style="margin-top:40px; margin-bottom:1px;">
+CONTACT US
+  </h2>
+   <div class="ui fluid two text item menu" >
+  <a class="item" style="color:royalblue; font-size:1.41em; " href="tel:7807090086">+91-7807090086</a>
+  <a class="item" style="color:royalblue; font-size:1.41em;" href="tel:8351090086">+91-8351090086</a>
+</div>
+
+<h2 class="ui  divider" style="margin-top:10px; margin-bottom:30px; text-decoration:underline;">
+
+  </h2>            
+</div>
+
+
+
+<div class="ui three stackable cards">
+  <% include partials/paragliding.ejs %>
+      <% include partials/rafting.ejs %>
+        <% include partials/guest.ejs %>
+
+
+  </div>
+
+
+ </div>
+</div>
+
+ <% include partials/footer.ejs %>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b3dcc8df30a3a9b"></script>
+
+</body>
+</html>
+
